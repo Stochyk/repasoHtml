@@ -1,0 +1,64 @@
+@import url('reset.css');
+body
+{
+    background-color:steelblue;
+    height:100dvh; /*100% del viewport del height*/
+}
+
+header, footer
+{
+    width:100;
+    height: 10%;
+
+    padding: 50px;
+}
+
+main
+{
+    background-color:red;
+    height:80%;
+}
+
+.banner, .descripcion, .nosotros, .productos
+{
+    width: 100%;
+    height: 25%;
+    border: solid 2px black; /*se puede poner double, dotted y solid para el border*/
+}
+
+.amarillo
+{
+    background-color: yellow;
+}
+
+.productos
+{ 
+    display: flex;
+    height: 500 px;
+    flex-direction: row;
+    justify-content: center;/* puede decir start tmb que es le medio, end a la derecha, space-around que termina con espacio, space-evenly no ocurre eso, space-between*/
+    align-items: center;/*Centra los productos verticalmente*/
+    gap: 5px;/*Espacio entre los productos*/
+
+}
+
+.producto{
+    /*flex-grow: 1; /* que se agande lo más que pueda si hay espacio*/
+    /*flex-shrink: 1; /*que se junte*/
+    /*flex-basis: auto el ancho minimo*/
+    flex: 1 1 25%;
+
+    height:100%;
+    width:10%;
+
+    background-color:orange;
+    border: solid 3px black;
+    font-size: 30px; 
+    padding: 5px;
+}
+.foto
+{
+    height:60%;
+    width: 100%;
+    background-color: white;
+}
