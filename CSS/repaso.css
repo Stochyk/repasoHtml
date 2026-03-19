@@ -28,6 +28,25 @@ main
 
     object-fit: cover;
 }
+
+.contHijo
+{
+    top: 50px;
+    left: 50px;
+}
+.hijoTexto
+{
+    position: absolute;
+    width: 60%;
+    bottom: 50px;
+    right: 50px;
+}
+.f20{
+    font-size: 40px;
+}
+
+
+
 .descripcion{
     display:flex;
 }
