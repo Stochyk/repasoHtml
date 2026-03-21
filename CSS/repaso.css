@@ -141,3 +141,10 @@ main
     height:100%;
 }
 
+.contHijo
+{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+}
+
