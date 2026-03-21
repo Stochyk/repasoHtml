@@ -38,7 +38,7 @@ main
 
     object-fit: cover;
 }
-.descripcion
+.contenedorPadre
 {
     margin: auto;
     height: 80%;
@@ -49,13 +49,12 @@ main
     position: relative;
 }
 
-
-
 .contHijo
 {
     top: 50px;
     left: 50px;
 }
+
 .hijoTexto
 {
     position: absolute;
@@ -63,10 +62,37 @@ main
     bottom: 50px;
     right: 50px;
 }
+
 .f20{
     font-size: 40px;
 }
 
+.papiRelative
+{
+    position: relative;
+}
+
+.simbolo1
+{
+    z-index: 0;
+    position: absolute;
+    top: -20px; left: -20px;
+
+}
+
+.simbolo2
+{
+    position: relative;
+    bottom:-20px; right:-20px;
+}
+
+.z-1
+{
+    z-index:2;
+    position: relative;
+    font-size: 20px;
+    right: -20px;
+}
 
 
 .descripcion{
