@@ -38,16 +38,7 @@ main
 
     object-fit: cover;
 }
-.contenedorPadre
-{
-    margin: auto;
-    height: 80%;
-    width: 80%;
-    background-color:white;
-    border-radius: 3em;
 
-    position: relative;
-}
 
 .contHijo
 {
