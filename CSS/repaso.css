@@ -38,6 +38,18 @@ main
 
     object-fit: cover;
 }
+.descripcion
+{
+    margin: auto;
+    height: 80%;
+    width: 80%;
+    background: linear-gradient(45deg, steelblue, yellow, tomato);
+    border-radius: 3em;
+
+    position: relative;
+}
+
+
 
 .contHijo
 {
@@ -141,10 +153,5 @@ main
     height:100%;
 }
 
-.contHijo
-{
-    position:absolute;
-    top: 50px;
-    left: 50px;
-}
+
 
