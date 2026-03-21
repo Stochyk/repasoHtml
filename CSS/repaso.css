@@ -43,7 +43,7 @@ main
     margin: auto;
     height: 80%;
     width: 80%;
-    background: linear-gradient(45deg, steelblue, yellow, tomato);
+    background: white;
     border-radius: 3em;
 
     position: relative;
